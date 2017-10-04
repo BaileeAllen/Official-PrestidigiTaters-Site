@@ -233,10 +233,15 @@ img.img-full-width {
     border: 2px solid #fff;
     font-size: 12px;
     line-height: 100%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .nino-btn:hover {
-    color: #fff;
+    background-color: #fff;
 }
 
 .bg-white {
@@ -434,7 +439,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FFFF00;
+    background-color: #fce38a;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -447,10 +452,9 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content  a:hover {
-    background-color: rgba(255, 255, 0, 0.53);
+.dropdown-content a:hover {
+    background-color: #95e1d3;
 }
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -1614,7 +1618,7 @@ div.pp_default .pp_social {
         margin-bottom: 20px;
     }
     .nino-sectionHeading .nino-subHeading {
-        font-size: 16px;
+        font-size: 35px;
         margin-bottom: 10px;
     }
     .nino-sectionDesc {
